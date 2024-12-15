@@ -4,6 +4,7 @@
 
 # Continuous equation parameters
  &PARM01
+ omega=1.4584230E-4,
  select_rStar=2,
  nonlinFreeSurf=4,
  implicitDiffusion=.TRUE.,
