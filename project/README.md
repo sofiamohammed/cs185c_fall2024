@@ -16,6 +16,9 @@ Create the the input files and add them the input directory.
 
 #### Step 2: Add files to the computing cluster
 To move the model files in the computing cluster, create a clone of MITgcm into the scratch directory and make a 'configurations' folder.
+```
+mkdir MITgcm/configurations/gulf_stream
+```
 
 #### Step 3: Compile the model
 
