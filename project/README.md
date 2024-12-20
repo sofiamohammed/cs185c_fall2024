@@ -15,13 +15,18 @@ Create the the input files and add them the input directory.
   - Boundary Conditions
 
 #### Step 2: Add files to the computing cluster
-To move the model files in the computing cluster, create a clone of MITgcm into the scratch directory and make a 'configurations' folder.
+To move the model files into the computing cluster, create a clone of MITgcm into the scratch directory and make a 'configurations' folder.
 ```
 mkdir MITgcm/configurations/gulf_stream
 ```
 Next, send the `code`, `input`, and `namelist` directorires to the configurations folder with the `scp` command.
 #### Step 3: Compile the model
-
+Make a `build` directory and run the commands:
+```
+../../../tools/genmake2 -of ../../../tools/build_options/darwin_amd64_gfortran -mods ../code -mpi
+make depend
+make
+```
 
 #### Step 4: Analayze the Results
 
