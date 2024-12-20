@@ -19,8 +19,9 @@ To move the model files in the computing cluster, create a clone of MITgcm into 
 ```
 mkdir MITgcm/configurations/gulf_stream
 ```
-
+Next, send the `code`, `input`, and `namelist` directorires to the configurations folder with the `scp` command.
 #### Step 3: Compile the model
+
 
 #### Step 4: Analayze the Results
 
