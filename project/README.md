@@ -28,5 +28,10 @@ make depend
 make
 ```
 
-#### Step 4: Analayze the Results
+#### Step 4: Run the model
+Switch the the run directory, link the contents of `input` and `code`, and then submit the job script:
+```
+sbatch cs185c.slm
+```
+#### Step 5: Analyze the Results
 
